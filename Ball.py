@@ -19,7 +19,7 @@ while 1:
         if event.type == pygame.QUIT:
             sys.exit()
         pressed = pygame.key.get_pressed()
-        # if 'w' key is pressed
+        # if 'space' key is pressed
         if pressed[pygame.K_SPACE]:
             if stopped == 1:
                 print("GO")
